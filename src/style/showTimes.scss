@@ -13,4 +13,8 @@
     width: 100px;
     height: 50px;
     margin: 5px;
+
+    &:focus{
+        background-color: #e3b924;
+    }
 }
