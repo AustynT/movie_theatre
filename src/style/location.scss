@@ -52,3 +52,29 @@
         border-right-style: solid;
     }
 }
+
+.locationabout__title {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+
+img {
+    height: 120px;
+    width: 200px;
+}
+.locationabout {
+    display: flex;
+    justify-content: space-around;
+    &__au {
+        border-right-style: solid;
+    }
+    &__cu {
+        border-right-style: solid;
+    }
+
+    &__ad {
+
+    }
+}
