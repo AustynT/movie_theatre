@@ -52,28 +52,29 @@ export default class Location extends Component {
 
         </div>
 
-       <div class="locationfaq">
-        <h1>FAQ</h1>
+        <div class="locationfaq__title">
+            <h1>FAQ</h1>
         </div>
 
-            <div class="locationfaq__vr">
-                <h4>VIP Room FAQ</h4>
-                <h5>Information about The VIP room, making reservations</h5>
-            </div>
+            <div class="locationsfaq">
+                <div class="locationsfaq__vr">
+                    <h4>VIP Room FAQ</h4>
+                    <h6>Information about The VIP room, making reservations</h6>
+                </div>
 
-            <div class="locationfaq__giftcard">
-                <h4>Gift Cards FAQ</h4>
-                <h5>Information on buying, registering, reloading and purchasing</h5>
-            </div>
+                <div class="locationsfaq__giftcard">
+                    <h4>Gift Cards FAQ</h4>
+                    <h6>Information on buying, registering, reloading and purchasing</h6>
+                </div>
 
-            <div class="locationfaq__movieclub">
-                <h4>Movie Club FAQ</h4>
-                <h5>Browse the Frequently Asked Questions to learn more about Movie Club</h5>
-            </div>
-        
-      
 
-      </div>
+                <div class="locationsfaq__movieclub">
+                    <h4>Movie Club FAQ</h4>
+                    <h6>Browse the Frequently Asked Questions to learn more about Movie Club</h6>
+                </div>
+            </div>
+    </div>
+
     );
   }
 }
