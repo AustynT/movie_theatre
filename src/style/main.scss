@@ -1,2 +1,37 @@
+<<<<<<< HEAD
+@import 'moviePoster';
+@import 'description';
+@import 'datePicker';
+@import 'showTimes';
+
+.app-wrapper {
+    font-family: 'Montserrat';
+}
+
+.page__container {
+    background-color: #746c6c;
+    
+    display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    padding: 75px;
+}
+
+.showing-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    width: 200px;
+    border-radius: 5px;
+    border: solid 1px #e3b924;
+    background-color: lightgray;
+}
+=======
 @import 'location';
 
+>>>>>>> 1e3a52c6a4596b52da6d32e6ce05aa7a875e89f2
