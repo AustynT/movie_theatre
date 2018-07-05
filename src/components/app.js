@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+<<<<<<< HEAD
 import NavBar from './navBar';
 import MoviePoster from './moviePoster';
 import Description from './description';
@@ -7,6 +8,9 @@ import Picker from './picker';
 import moment from 'moment';
 import 'react-datepicker/dist/react-datepicker.css';
 import ShowTimes from './showTimes';
+=======
+import Location from './location';
+>>>>>>> 1e3a52c6a4596b52da6d32e6ce05aa7a875e89f2
 
 export default class App extends Component {
 
@@ -37,7 +41,9 @@ export default class App extends Component {
             <button>Select Seats</button>
           </div>
         </div>
+
       </div>
     );
   }
 }
+          

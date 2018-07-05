@@ -1,0 +1,54 @@
+.location__title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.location {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    &__af {
+        border-style: solid;
+        padding: 20px;
+    }
+    &__draper {
+        border-style: solid;
+        padding: 20px;
+    }
+    &__layton {
+        border-style: solid;
+        padding: 20px;
+    }
+}
+.locationsTwo {
+    display: flex;
+    justify-content: space-around;
+    &__or {
+        border-style: solid;
+        padding: 20px;
+    }
+    &__sj {
+        border-style: solid;
+        padding: 20px;
+    }
+    &__lehi {
+        border-style: solid;
+        padding: 20px; 
+    }
+}
+.locationfaq__title {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+.locationsfaq {
+    display: flex;
+    justify-content: space-around;
+    &__vr {
+        border-right-style: solid;
+    }
+    &__giftcard {
+        border-right-style: solid;
+    }
+}
