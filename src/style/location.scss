@@ -1,0 +1,58 @@
+.location__title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.location {
+    display: flex;
+    justify-content: center;
+    &__af {
+        margin-right: 100px;
+        border-style: solid;
+    }
+    &__draper {
+        margin-right: 100px;
+        border-style: solid;
+    }
+    &__layton {
+        border-style: solid;
+        
+    }
+}
+.locationsTwo {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    &__or {
+        margin-right: 100px;
+        border-style: solid;
+    }
+    &__sj {
+        margin-right: 100px;
+        border-style: solid;
+    }
+    &__lehi {
+        border-style: solid;
+        
+    }
+}
+
+.locationfaq {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    &__vr {
+        margin-right: 100px;
+        border-style: solid;
+        margin-top:10px;
+    }
+    &__giftcard {
+        margin-right: 100px;
+        border-style: solid;
+        margin-top:10px;
+    }
+    &__movieclub {
+        border-style: solid;
+        margin-top:10px;
+    }
+}
