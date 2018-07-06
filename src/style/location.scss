@@ -1,6 +1,9 @@
+$box-color-location: darkred;
+$box-color-faq: gray;
 .location__title {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
     margin-bottom: 50px;
 }
 .location {
@@ -9,15 +12,28 @@
     margin-bottom: 50px;
     &__af {
         border-style: solid;
+        background-color: $box-color-location;
         padding: 20px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        
     }
     &__draper {
         border-style: solid;
+        background-color: $box-color-location;
         padding: 20px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
     }
     &__layton {
         border-style: solid;
+        background-color: $box-color-location;
         padding: 20px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
     }
 }
 .locationsTwo {
@@ -25,15 +41,27 @@
     justify-content: space-around;
     &__or {
         border-style: solid;
+        background-color: $box-color-location;
         padding: 20px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
     }
     &__sj {
         border-style: solid;
+        background-color: $box-color-location;
         padding: 20px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
     }
     &__lehi {
         border-style: solid;
+        background-color: $box-color-location;
         padding: 20px; 
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
     }
 }
 .locationfaq__title {
@@ -46,35 +74,59 @@
     display: flex;
     justify-content: space-around;
     &__vr {
-        border-right-style: solid;
+        border-style: solid;
+        border-width: 2px;
+        background-color: $box-color-faq;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    &__vr h6 {
+        font-size: 10px;
     }
     &__giftcard {
-        border-right-style: solid;
+        border-style: solid;
+        border-width: 2px;
+        background-color: $box-color-faq;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    &__giftcard h6 {
+        font-size: 10px
+    }
+    &__movieclub {
+        border-style: solid;
+        border-width: 2px;
+        background-color: $box-color-faq;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    &__movieclub h6 {
+        font-size: 10px
     }
 }
-
-.locationabout__title {
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
-    margin-bottom: 15px;
-}
-
 img {
     height: 120px;
     width: 200px;
 }
+.locationabout__title {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
 .locationabout {
     display: flex;
     justify-content: space-around;
+    padding: 20px;
+    margin-top: 20px;
     &__au {
-        border-right-style: solid;
+  
     }
     &__cu {
-        border-right-style: solid;
-    }
-
-    &__ad {
-
     }
 }
